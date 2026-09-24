@@ -5,7 +5,7 @@ export default function Navbar({ roleLabel, name, email, onMenuClick, onLogout }
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-20 flex items-center justify-between h-16 px-4 sm:px-6 bg-cream-100/90 backdrop-blur border-b border-border">
+    <header className="sticky top-0 z-20 flex items-center justify-between h-16 px-4 sm:px-6 bg-white backdrop-blur border-b border-border">
       <div className="flex items-center gap-3">
         <button
           className="lg:hidden text-ink-soft"
