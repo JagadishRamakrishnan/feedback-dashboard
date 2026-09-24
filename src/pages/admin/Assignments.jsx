@@ -182,7 +182,7 @@ export default function Assignments() {
         </p>
       </div>
 
-      <div className="flex justify-between items-center">
+      <div className="flex md:flex-row flex-col justify-between md:items-center">
         <div className="flex flex-col sm:flex-row sm:items-center gap-3">
           <SearchBar
             value={search}
